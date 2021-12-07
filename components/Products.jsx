@@ -2,7 +2,7 @@ import SingleProduct from "./SingleProduct";
 
 const Products = (props) => {
   return (
-    <div className="bg-yellow-300 bg-opacity-30 z-0 lg:py-8 md:py-4">
+    <div className="bg-yellow-300 bg-opacity-30 z-0 lg:py-8 md:py-4 overflow-hidden">
       <div className="container lg:mx-auto mx-4">
         <h1 className="text-center font-bold text-3xl pb-8">
           Featured Products
