@@ -4,7 +4,7 @@ import CartContext from "../store/Cart-Context";
 const Cart = (props) => {
   const cartCtx = useContext(CartContext);
   const totalAmount = `$ ${cartCtx.totalAmount.toFixed(2)}`;
-  const hasItem = cartCtx.items.length > 1;
+  const hasItem = cartCtx.items.length >= 1;
 
   const cartItems = (
     <ul>
