@@ -19,7 +19,7 @@ const ProductForm = (props) => {
   return (
     <form
       className="flex-1 flex flex-col justify-between items-center relative"
-      onClick={submitHandler}
+      
     >
       <input
         ref={amountInputRef}
@@ -32,7 +32,7 @@ const ProductForm = (props) => {
         step="1"
         className="w-10 font-bold text-center"
       />
-      <button className="cursor-pointer py-1 px-4 bg-yellow-600 rounded-lg text-white text-sm">
+      <button className="cursor-pointer py-1 px-4 bg-yellow-600 rounded-lg text-white text-sm" onClick={submitHandler}>
         ADD TO CART
       </button>
       {/* {!amountIsValid && (
